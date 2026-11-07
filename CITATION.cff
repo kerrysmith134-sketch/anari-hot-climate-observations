@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Verified Hot-Climate EV Charging Observations, 2026"
+message: "If you use these observations, cite this dataset and state the measurement conditions."
+type: dataset
+authors:
+  - name: "Shenzhen Anari Energy Co., Ltd."
+    website: "https://www.anaricharge.com"
+date-released: "2026-11-07"
+license: CC-BY-4.0
+url: "https://github.com/kerrysmith134-sketch/anari-hot-climate-observations"
+repository-code: "https://github.com/kerrysmith134-sketch/anari-hot-climate-observations"
+keywords:
+  - EV charging
+  - hot climate
+  - derating
+  - charging infrastructure
+  - energy storage
+abstract: >-
+  Field observations from operating EV charging sites in hot-climate and monsoon markets:
+  3 observations, 3 equipment ratings, and 4 explicitly stated gaps. Published so the
+  conditions and limits behind each number can be checked.

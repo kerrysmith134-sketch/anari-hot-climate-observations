@@ -1,0 +1,60 @@
+{
+  "title": "Anari Energy — verified hot-climate and monsoon operating observations",
+  "version": "2026-11-07",
+  "license": "CC BY 4.0 — free to cite with attribution to Anari Energy",
+  "citation": "Anari Energy (2026). Verified hot-climate and monsoon operating observations. https://www.anaricharge.com/data/hot-climate-observations-2026.json",
+  "method": "Field observations reported by commissioning engineers at handover and after the first operating season. Each entry states what was measured and what was not.",
+  "observations": [
+    {
+      "id": "JO-160-AMBIENT",
+      "site_country": "Jordan",
+      "ambient_temperature": "45 °C and above, sustained summer conditions",
+      "observed": "Rated output sustained at nameplate power",
+      "hardware": "Vulco 160 kW, two-gun and three-gun (2 DC + 1 AC Type 2) configurations",
+      "measured_by": "Commissioning engineer, on site",
+      "not_measured": "Continuous derating curve; per-degree output; long-term capacity fade"
+    },
+    {
+      "id": "KH-240-AMBIENT",
+      "site_country": "Cambodia",
+      "ambient_temperature": "35 °C and above",
+      "observed": "Rated output sustained at nameplate power",
+      "hardware": "Pales 240 kW (site also operates 2 × 180 kW units)",
+      "measured_by": "Commissioning engineer, on site",
+      "not_measured": "Humidity-adjusted derating; connector thermal behaviour under load"
+    },
+    {
+      "id": "KH-240-MONSOON",
+      "site_country": "Cambodia",
+      "ambient_temperature": "Monsoon season, first operating year",
+      "observed": "Zero weather-related downtime across the first monsoon quarter",
+      "hardware": "Pales 240 kW and 2 × 180 kW",
+      "measured_by": "Site operator log",
+      "not_measured": "Rainfall volume; flooding depth; component-level failure rates"
+    }
+  ],
+  "equipment_ratings": [
+    {
+      "id": "BESS-TEMP",
+      "product": "Liquid-cooled BESS",
+      "range": "-35 °C to +55 °C",
+      "enclosure": "IP55, outdoor"
+    },
+    {
+      "id": "VULCO-EFF",
+      "product": "Vulco",
+      "peak_efficiency": "96%"
+    },
+    {
+      "id": "PALES-EFF",
+      "product": "Pales",
+      "peak_efficiency": "at least 96%"
+    }
+  ],
+  "known_gaps": [
+    "No continuous derating curve published — we do not have enough logged sensor data to publish one honestly",
+    "No per-degree efficiency data",
+    "No multi-year capacity fade data for DC units in these climates",
+    "Observations are per-site reports, not controlled experiments"
+  ]
+}
