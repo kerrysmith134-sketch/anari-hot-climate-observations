@@ -1,0 +1,38 @@
+{
+  "title": "Verified Hot-Climate EV Charging Observations, 2026",
+  "upload_type": "dataset",
+  "description": "<p>Field observations from operating EV charging sites in hot-climate and monsoon markets (Israel, Saudi Arabia, Cambodia, Jordan).</p><p>Contents: 3 field observations, 3 equipment ratings, and <strong>4 explicitly stated gaps</strong> (things we could not measure). Each record separates the measurement, the conditions it was measured under, and the stated limit of the observation.</p><p>Published so the numbers can be checked rather than taken on trust. Most manufacturer material in this category presents derating curves without stating test conditions, which makes it unusable for an engineer sizing a site. If a figure is not in this dataset, treat it as unverified rather than assuming a value.</p><p>Analysis and method: <a href=\"https://www.anaricharge.com/data/hot-climate-charging\">anaricharge.com/data/hot-climate-charging</a></p>",
+  "creators": [
+    {
+      "name": "Shenzhen Anari Energy Co., Ltd.",
+      "affiliation": "Anari Energy, Shenzhen, China"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "keywords": [
+    "EV charging",
+    "hot climate",
+    "derating",
+    "DC fast charging",
+    "charging infrastructure",
+    "energy storage",
+    "emerging markets"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.anaricharge.com/data/hot-climate-charging",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/kerrysmith134-sketch/anari-hot-climate-observations",
+      "relation": "isAlternateIdentifier",
+      "scheme": "url"
+    }
+  ],
+  "references": [
+    "Site analysis and methodology: https://www.anaricharge.com/data/hot-climate-charging"
+  ],
+  "notes": "Mirror of the dataset published at https://www.anaricharge.com/data/hot-climate-observations-2026.json . The site version is authoritative."
+}
